@@ -1,0 +1,58 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/mh-box",
+  "version": "0.1.0",
+  "title": "Mh Box",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Title"
+    },
+    "description": {
+      "type": "string",
+      "default": "Description"
+    },
+    "boxBG": {
+      "type": "string"
+    },
+    "titleColor": {
+      "type": "string"
+    },
+    "descriptionColor": {
+      "type": "string"
+    },
+    "boxPadding": {
+      "type": "object",
+      "default": {
+        "top": "15px",
+        "right": "15px",
+        "bottom": "15px",
+        "left": "15px"
+      }
+    },
+    "boxBorder": {
+      "type": "object"
+    },
+    "titleAlign": {
+      "type": "string",
+      "default": "center"
+    },
+    "descriptionAlign": {
+      "type": "string",
+      "default": "center"
+    }
+  },
+  "textdomain": "mh-box",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
