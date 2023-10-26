@@ -21,13 +21,16 @@
 			"default": "Description"
 		},
 		"boxBG": {
-			"type": "string"
+			"type": "string",
+			"default": "#FFFFFF"
 		},
 		"titleColor": {
-			"type": "string"
+			"type": "string",
+			"default": "#000000"
 		},
 		"descriptionColor": {
-			"type": "string"
+			"type": "string",
+			"default": "#000000"
 		},
 		"boxPadding": {
 			"type": "object",
@@ -39,15 +42,12 @@
 			}
 		},
 		"boxBorder": {
-			"type": "object"
-		},
-		"titleAlign": {
-			"type": "string",
-			"default": "center"
-		},
-		"descriptionAlign": {
-			"type": "string",
-			"default": "center"
+			"type": "object",
+			"default": {
+				"width": "1px",
+				"style": "solid",
+				"color": "#000000"
+			}
 		}
 	},
 	"textdomain": "mh-box",
